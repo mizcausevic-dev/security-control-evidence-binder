@@ -1,0 +1,74 @@
+[
+  {
+    "lane": "AI governance control family",
+    "track": "AI_GOVERNANCE",
+    "compositeTrustRiskScore": 37.2,
+    "trustExposureMillions": 32,
+    "buyerCriticalityScore": 82,
+    "companyTags": [
+      "OpenAI",
+      "Anthropic",
+      "Microsoft"
+    ]
+  },
+  {
+    "lane": "Identity and access control family",
+    "track": "IDENTITY",
+    "compositeTrustRiskScore": 23,
+    "trustExposureMillions": 16,
+    "buyerCriticalityScore": 68,
+    "companyTags": [
+      "Microsoft",
+      "Entra",
+      "Okta"
+    ]
+  },
+  {
+    "lane": "Platform security control family",
+    "track": "PLATFORM_SECURITY",
+    "compositeTrustRiskScore": 43.4,
+    "trustExposureMillions": 30,
+    "buyerCriticalityScore": 79,
+    "companyTags": [
+      "Cloudflare",
+      "GitHub",
+      "Hostinger"
+    ]
+  },
+  {
+    "lane": "Procurement and trust center control family",
+    "track": "PROCUREMENT_TRUST",
+    "compositeTrustRiskScore": 20,
+    "trustExposureMillions": 14,
+    "buyerCriticalityScore": 62,
+    "companyTags": [
+      "Vanta",
+      "Drata",
+      "Google"
+    ]
+  },
+  {
+    "lane": "Revenue and reporting control family",
+    "track": "REVENUE_CONTROLS",
+    "compositeTrustRiskScore": 44,
+    "trustExposureMillions": 26,
+    "buyerCriticalityScore": 77,
+    "companyTags": [
+      "Power BI",
+      "Tableau",
+      "VWO"
+    ]
+  },
+  {
+    "lane": "Regulated systems control family",
+    "track": "REGULATED_SYSTEMS",
+    "compositeTrustRiskScore": 39.6,
+    "trustExposureMillions": 29,
+    "buyerCriticalityScore": 76,
+    "companyTags": [
+      "Veeva",
+      "LabVantage",
+      "Thermo Fisher"
+    ]
+  }
+]

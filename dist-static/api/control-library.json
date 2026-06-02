@@ -1,0 +1,62 @@
+[
+  {
+    "lane": "AI governance control family",
+    "controlFamily": "AI governance readiness binder",
+    "action": "REFRESH",
+    "owner": "Chief AI Officer",
+    "audience": "Board risk committee",
+    "requestedAssertion": "Agent governance, rollout, and exception control evidence is review-ready.",
+    "coverageScore": 70,
+    "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the binder catches up."
+  },
+  {
+    "lane": "Identity and access control family",
+    "controlFamily": "Identity assurance binder",
+    "action": "CLOSE",
+    "owner": "Chief Information Security Officer",
+    "audience": "Audit committee",
+    "requestedAssertion": "Identity reviews, guest access, and mobile protection controls are audit-ready.",
+    "coverageScore": 84,
+    "nextMove": "Refresh the guest-access export and mark the control family ready for external reuse."
+  },
+  {
+    "lane": "Platform security control family",
+    "controlFamily": "Platform security binder",
+    "action": "ESCALATE",
+    "owner": "VP Platform Engineering",
+    "audience": "Board technology committee",
+    "requestedAssertion": "Hosting, release safety, backup, and runtime hardening controls are connected enough for diligence.",
+    "coverageScore": 63,
+    "nextMove": "Escalate one owner to assemble the hosting-to-recovery proof chain."
+  },
+  {
+    "lane": "Procurement and trust center control family",
+    "controlFamily": "Procurement trust binder",
+    "action": "CLOSE",
+    "owner": "Chief Commercial Officer",
+    "audience": "Board growth committee",
+    "requestedAssertion": "Security questionnaire, trust-center, and proof reuse are buyer-ready.",
+    "coverageScore": 88,
+    "nextMove": "Publish the proof-coverage index and lock this binder as the reference lane."
+  },
+  {
+    "lane": "Revenue and reporting control family",
+    "controlFamily": "Revenue control binder",
+    "action": "DEFER",
+    "owner": "Chief Revenue Officer",
+    "audience": "Board finance committee",
+    "requestedAssertion": "Reporting, attribution, and release controls already form one diligence-grade control plane.",
+    "coverageScore": 58,
+    "nextMove": "Defer the integrated assertion until one linked revenue-control packet exists."
+  },
+  {
+    "lane": "Regulated systems control family",
+    "controlFamily": "Regulated systems binder",
+    "action": "REFRESH",
+    "owner": "Quality systems lead",
+    "audience": "Board compliance committee",
+    "requestedAssertion": "GxP, specimen, CAPA, safety, and narrative review already form a reusable regulated binder.",
+    "coverageScore": 67,
+    "nextMove": "Refresh provenance notes and publish one repeatable regulated packet."
+  }
+]

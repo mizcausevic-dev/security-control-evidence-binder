@@ -1,0 +1,50 @@
+[
+  {
+    "lane": "AI governance control family",
+    "action": "REFRESH",
+    "blockerCount": 1,
+    "compositeTrustRiskScore": 37.2,
+    "owner": "Chief AI Officer",
+    "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the binder catches up."
+  },
+  {
+    "lane": "Identity and access control family",
+    "action": "CLOSE",
+    "blockerCount": 0,
+    "compositeTrustRiskScore": 23,
+    "owner": "Chief Information Security Officer",
+    "nextMove": "Refresh the guest-access export and mark the control family ready for external reuse."
+  },
+  {
+    "lane": "Platform security control family",
+    "action": "ESCALATE",
+    "blockerCount": 2,
+    "compositeTrustRiskScore": 43.4,
+    "owner": "VP Platform Engineering",
+    "nextMove": "Escalate one owner to assemble the hosting-to-recovery proof chain."
+  },
+  {
+    "lane": "Procurement and trust center control family",
+    "action": "CLOSE",
+    "blockerCount": 0,
+    "compositeTrustRiskScore": 20,
+    "owner": "Chief Commercial Officer",
+    "nextMove": "Publish the proof-coverage index and lock this binder as the reference lane."
+  },
+  {
+    "lane": "Revenue and reporting control family",
+    "action": "DEFER",
+    "blockerCount": 2,
+    "compositeTrustRiskScore": 44,
+    "owner": "Chief Revenue Officer",
+    "nextMove": "Defer the integrated assertion until one linked revenue-control packet exists."
+  },
+  {
+    "lane": "Regulated systems control family",
+    "action": "REFRESH",
+    "blockerCount": 1,
+    "compositeTrustRiskScore": 39.6,
+    "owner": "Quality systems lead",
+    "nextMove": "Refresh provenance notes and publish one repeatable regulated packet."
+  }
+]

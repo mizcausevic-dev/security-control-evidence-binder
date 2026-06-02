@@ -1,0 +1,984 @@
+{
+  "report": {
+    "generatedAt": "2026-06-02T00:00:00Z",
+    "summary": {
+      "controlFamilies": 6,
+      "criticalFamilies": 3,
+      "blockedFamilies": 4,
+      "averageCoverage": 71.7,
+      "trustExposureMillions": 147,
+      "leadingMessage": "Trust weakness is now cross-functional and should be closed as one board-visible evidence workstream."
+    },
+    "items": [
+      {
+        "id": "ai-governance-controls",
+        "lane": "AI governance control family",
+        "track": "AI_GOVERNANCE",
+        "action": "REFRESH",
+        "controlFamily": "AI governance readiness binder",
+        "boardQuestion": "Which AI control claims would fail a buyer or investor trust review first?",
+        "owner": "Chief AI Officer",
+        "audience": "Board risk committee",
+        "currentPosture": "Control narratives are coherent, but proof freshness and operating attachments are uneven.",
+        "requestedAssertion": "Agent governance, rollout, and exception control evidence is review-ready.",
+        "controlGapHeadline": "AI governance is close, but still needs fresher operational proof.",
+        "evidenceSignal": "Exception-routing and rollback evidence is older than the trust language implies.",
+        "missingArtifact": "Fresh operating exports for exception handling, evaluation review, and rollback outcomes",
+        "evidenceArtifacts": [
+          "exception-routing export",
+          "evaluation review packet",
+          "rollback control log"
+        ],
+        "evidenceMoves": [
+          "refresh control exports",
+          "attach evaluation packet",
+          "tighten trust memo wording"
+        ],
+        "relatedSurfaces": [
+          "scorecard.kineticgain.com",
+          "memo.kineticgain.com",
+          "agents.kineticgain.com"
+        ],
+        "companyTags": [
+          "OpenAI",
+          "Anthropic",
+          "Microsoft"
+        ],
+        "coverageScore": 70,
+        "freshnessDays": 26,
+        "ownerReadinessScore": 72,
+        "buyerCriticalityScore": 82,
+        "blockerCount": 1,
+        "trustExposureMillions": 32,
+        "headline": "AI governance needs fresher proof before it can anchor trust review.",
+        "narrative": "This is an evidence freshness problem more than a strategy problem.",
+        "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the binder catches up.",
+        "evidenceCoverageAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Control coverage exists, but the binder still needs stronger attachment depth."
+        },
+        "freshnessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Evidence is aging and should be refreshed before reuse."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Ownership exists, but closure still depends on cross-functional follow-up."
+        },
+        "blockerAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "A blocker is forming and should be cleared before the next trust review."
+        },
+        "buyerCriticalityAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "The review is too critical for the current binder weakness."
+        },
+        "compositeTrustRiskScore": 37.2
+      },
+      {
+        "id": "identity-controls",
+        "lane": "Identity and access control family",
+        "track": "IDENTITY",
+        "action": "CLOSE",
+        "controlFamily": "Identity assurance binder",
+        "boardQuestion": "Which identity trust claims are closest to clean closure?",
+        "owner": "Chief Information Security Officer",
+        "audience": "Audit committee",
+        "currentPosture": "Identity evidence is strong and mostly current.",
+        "requestedAssertion": "Identity reviews, guest access, and mobile protection controls are audit-ready.",
+        "controlGapHeadline": "Identity is the healthiest control family, with only minor freshness cleanup left.",
+        "evidenceSignal": "Guest-review evidence is slightly older than ideal, but ownership is clear.",
+        "missingArtifact": "One refreshed guest-access evidence export",
+        "evidenceArtifacts": [
+          "guest access export",
+          "mobile posture packet",
+          "access-review trail"
+        ],
+        "evidenceMoves": [
+          "refresh guest export",
+          "attach mobile posture packet"
+        ],
+        "relatedSurfaces": [
+          "guest.kineticgain.com",
+          "protect.kineticgain.com",
+          "certs.kineticgain.com"
+        ],
+        "companyTags": [
+          "Microsoft",
+          "Entra",
+          "Okta"
+        ],
+        "coverageScore": 84,
+        "freshnessDays": 17,
+        "ownerReadinessScore": 86,
+        "buyerCriticalityScore": 68,
+        "blockerCount": 0,
+        "trustExposureMillions": 16,
+        "headline": "Identity can close quickly with a small evidence refresh.",
+        "narrative": "This is the benchmark lane for a disciplined trust binder.",
+        "nextMove": "Refresh the guest-access export and mark the control family ready for external reuse.",
+        "evidenceCoverageAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "Control coverage is strong enough for buyer and board reuse."
+        },
+        "freshnessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Evidence is aging and should be refreshed before reuse."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "Ownership is clear enough to close the binder quickly."
+        },
+        "blockerAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "No visible blocker is slowing control-family closure."
+        },
+        "buyerCriticalityAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "The review is too critical for the current binder weakness."
+        },
+        "compositeTrustRiskScore": 23
+      },
+      {
+        "id": "platform-security-controls",
+        "lane": "Platform security control family",
+        "track": "PLATFORM_SECURITY",
+        "action": "ESCALATE",
+        "controlFamily": "Platform security binder",
+        "boardQuestion": "Where will platform security trust review ask for harder evidence?",
+        "owner": "VP Platform Engineering",
+        "audience": "Board technology committee",
+        "currentPosture": "Narrative strength is ahead of proof depth.",
+        "requestedAssertion": "Hosting, release safety, backup, and runtime hardening controls are connected enough for diligence.",
+        "controlGapHeadline": "Platform security needs escalation because proof is still fragmented.",
+        "evidenceSignal": "Backup readiness, release rollback, and hosted-validator evidence are still loosely linked.",
+        "missingArtifact": "One end-to-end packet linking hosting controls to release and recovery proof",
+        "evidenceArtifacts": [
+          "backup drill report",
+          "release rollback example",
+          "hosted validator control export"
+        ],
+        "evidenceMoves": [
+          "attach backup packet",
+          "publish rollback example",
+          "show hosted-control lineage"
+        ],
+        "relatedSurfaces": [
+          "backup.kineticgain.com",
+          "validator.kineticgain.com",
+          "docs.kineticgain.com"
+        ],
+        "companyTags": [
+          "Cloudflare",
+          "GitHub",
+          "Hostinger"
+        ],
+        "coverageScore": 63,
+        "freshnessDays": 22,
+        "ownerReadinessScore": 61,
+        "buyerCriticalityScore": 79,
+        "blockerCount": 2,
+        "trustExposureMillions": 30,
+        "headline": "Platform security needs escalation because the evidence chain is still fragmented.",
+        "narrative": "The issue is connective proof, not lack of security surface area.",
+        "nextMove": "Escalate one owner to assemble the hosting-to-recovery proof chain.",
+        "evidenceCoverageAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Control coverage is too thin for the current trust claim."
+        },
+        "freshnessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Evidence is aging and should be refreshed before reuse."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Ownership is too weak to move the binder cleanly."
+        },
+        "blockerAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Blocker load is already delaying the binder."
+        },
+        "buyerCriticalityAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "The review is too critical for the current binder weakness."
+        },
+        "compositeTrustRiskScore": 43.4
+      },
+      {
+        "id": "procurement-trust-controls",
+        "lane": "Procurement and trust center control family",
+        "track": "PROCUREMENT_TRUST",
+        "action": "CLOSE",
+        "controlFamily": "Procurement trust binder",
+        "boardQuestion": "Which control family should anchor the rest of the external proof layer?",
+        "owner": "Chief Commercial Officer",
+        "audience": "Board growth committee",
+        "currentPosture": "Procurement is the strongest lane and can serve as the reference binder.",
+        "requestedAssertion": "Security questionnaire, trust-center, and proof reuse are buyer-ready.",
+        "controlGapHeadline": "This binder is structurally strong and mainly needs ongoing hygiene.",
+        "evidenceSignal": "Questionnaire reuse still benefits from a more explicit proof index.",
+        "missingArtifact": "Published proof-coverage index across the trust layer",
+        "evidenceArtifacts": [
+          "questionnaire answer pack",
+          "trust-center packet",
+          "proof coverage index"
+        ],
+        "evidenceMoves": [
+          "publish coverage index",
+          "cross-link trust assets",
+          "standardize answer-pack attachments"
+        ],
+        "relatedSurfaces": [
+          "procurement.kineticgain.com",
+          "questionnaire.kineticgain.com",
+          "trust.kineticgain.com"
+        ],
+        "companyTags": [
+          "Vanta",
+          "Drata",
+          "Google"
+        ],
+        "coverageScore": 88,
+        "freshnessDays": 10,
+        "ownerReadinessScore": 84,
+        "buyerCriticalityScore": 62,
+        "blockerCount": 0,
+        "trustExposureMillions": 14,
+        "headline": "Procurement should anchor the trust-evidence stack.",
+        "narrative": "Use this lane as the operating standard for proof reuse and evidence clarity.",
+        "nextMove": "Publish the proof-coverage index and lock this binder as the reference lane.",
+        "evidenceCoverageAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "Control coverage is strong enough for buyer and board reuse."
+        },
+        "freshnessAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "Evidence is fresh enough for external review."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "Ownership is clear enough to close the binder quickly."
+        },
+        "blockerAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "No visible blocker is slowing control-family closure."
+        },
+        "buyerCriticalityAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "The review is becoming hard to satisfy with the current control coverage."
+        },
+        "compositeTrustRiskScore": 20
+      },
+      {
+        "id": "revenue-controls",
+        "lane": "Revenue and reporting control family",
+        "track": "REVENUE_CONTROLS",
+        "action": "DEFER",
+        "controlFamily": "Revenue control binder",
+        "boardQuestion": "Which revenue-system control claims are still too early for external trust language?",
+        "owner": "Chief Revenue Officer",
+        "audience": "Board finance committee",
+        "currentPosture": "The control-family story is promising but still early as a unified binder.",
+        "requestedAssertion": "Reporting, attribution, and release controls already form one diligence-grade control plane.",
+        "controlGapHeadline": "Revenue should be framed as an emerging control family, not a closed binder.",
+        "evidenceSignal": "Cross-surface evidence is thinner than the strength of the integrated-control narrative.",
+        "missingArtifact": "One end-to-end evidence packet connecting reporting, attribution, and release controls",
+        "evidenceArtifacts": [
+          "reporting control matrix",
+          "release-control packet",
+          "attribution rollback example"
+        ],
+        "evidenceMoves": [
+          "defer integrated language",
+          "publish one linked packet",
+          "restate as emerging control family"
+        ],
+        "relatedSurfaces": [
+          "powerbi.kineticgain.com",
+          "yield.kineticgain.com",
+          "martech.kineticgain.com"
+        ],
+        "companyTags": [
+          "Power BI",
+          "Tableau",
+          "VWO"
+        ],
+        "coverageScore": 58,
+        "freshnessDays": 21,
+        "ownerReadinessScore": 60,
+        "buyerCriticalityScore": 77,
+        "blockerCount": 2,
+        "trustExposureMillions": 26,
+        "headline": "Revenue controls need a stronger proof chain before external trust reuse.",
+        "narrative": "The binder is valuable, but the integrated control-plane claim should wait.",
+        "nextMove": "Defer the integrated assertion until one linked revenue-control packet exists.",
+        "evidenceCoverageAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Control coverage is too thin for the current trust claim."
+        },
+        "freshnessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Evidence is aging and should be refreshed before reuse."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Ownership is too weak to move the binder cleanly."
+        },
+        "blockerAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Blocker load is already delaying the binder."
+        },
+        "buyerCriticalityAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "The review is too critical for the current binder weakness."
+        },
+        "compositeTrustRiskScore": 44
+      },
+      {
+        "id": "regulated-systems-controls",
+        "lane": "Regulated systems control family",
+        "track": "REGULATED_SYSTEMS",
+        "action": "REFRESH",
+        "controlFamily": "Regulated systems binder",
+        "boardQuestion": "Which regulated control families need provenance reinforcement before reuse?",
+        "owner": "Quality systems lead",
+        "audience": "Board compliance committee",
+        "currentPosture": "The control stack is compelling, but the binder needs stronger provenance and fresher timestamps.",
+        "requestedAssertion": "GxP, specimen, CAPA, safety, and narrative review already form a reusable regulated binder.",
+        "controlGapHeadline": "The regulated binder is real, but still needs clearer provenance to feel durable.",
+        "evidenceSignal": "Evidence dates and repeatability notes are weaker than the current trust narrative.",
+        "missingArtifact": "Fresh provenance notes and one repeatable control-family packet",
+        "evidenceArtifacts": [
+          "GxP change packet",
+          "specimen custody proof",
+          "CAPA closure ledger"
+        ],
+        "evidenceMoves": [
+          "refresh dates",
+          "tighten provenance notes",
+          "publish one repeatable packet"
+        ],
+        "relatedSurfaces": [
+          "gxp.kineticgain.com",
+          "specimen.kineticgain.com",
+          "capa.kineticgain.com",
+          "safety.kineticgain.com"
+        ],
+        "companyTags": [
+          "Veeva",
+          "LabVantage",
+          "Thermo Fisher"
+        ],
+        "coverageScore": 67,
+        "freshnessDays": 33,
+        "ownerReadinessScore": 64,
+        "buyerCriticalityScore": 76,
+        "blockerCount": 1,
+        "trustExposureMillions": 29,
+        "headline": "Regulated controls need a provenance refresh before they read like a durable binder.",
+        "narrative": "The surface is there; the external packet needs to look more repeatable and less recent.",
+        "nextMove": "Refresh provenance notes and publish one repeatable regulated packet.",
+        "evidenceCoverageAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Control coverage is too thin for the current trust claim."
+        },
+        "freshnessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Evidence is aging and should be refreshed before reuse."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Ownership is too weak to move the binder cleanly."
+        },
+        "blockerAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "A blocker is forming and should be cleared before the next trust review."
+        },
+        "buyerCriticalityAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "The review is too critical for the current binder weakness."
+        },
+        "compositeTrustRiskScore": 39.6
+      }
+    ]
+  },
+  "controlLibrary": [
+    {
+      "lane": "AI governance control family",
+      "controlFamily": "AI governance readiness binder",
+      "action": "REFRESH",
+      "owner": "Chief AI Officer",
+      "audience": "Board risk committee",
+      "requestedAssertion": "Agent governance, rollout, and exception control evidence is review-ready.",
+      "coverageScore": 70,
+      "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the binder catches up."
+    },
+    {
+      "lane": "Identity and access control family",
+      "controlFamily": "Identity assurance binder",
+      "action": "CLOSE",
+      "owner": "Chief Information Security Officer",
+      "audience": "Audit committee",
+      "requestedAssertion": "Identity reviews, guest access, and mobile protection controls are audit-ready.",
+      "coverageScore": 84,
+      "nextMove": "Refresh the guest-access export and mark the control family ready for external reuse."
+    },
+    {
+      "lane": "Platform security control family",
+      "controlFamily": "Platform security binder",
+      "action": "ESCALATE",
+      "owner": "VP Platform Engineering",
+      "audience": "Board technology committee",
+      "requestedAssertion": "Hosting, release safety, backup, and runtime hardening controls are connected enough for diligence.",
+      "coverageScore": 63,
+      "nextMove": "Escalate one owner to assemble the hosting-to-recovery proof chain."
+    },
+    {
+      "lane": "Procurement and trust center control family",
+      "controlFamily": "Procurement trust binder",
+      "action": "CLOSE",
+      "owner": "Chief Commercial Officer",
+      "audience": "Board growth committee",
+      "requestedAssertion": "Security questionnaire, trust-center, and proof reuse are buyer-ready.",
+      "coverageScore": 88,
+      "nextMove": "Publish the proof-coverage index and lock this binder as the reference lane."
+    },
+    {
+      "lane": "Revenue and reporting control family",
+      "controlFamily": "Revenue control binder",
+      "action": "DEFER",
+      "owner": "Chief Revenue Officer",
+      "audience": "Board finance committee",
+      "requestedAssertion": "Reporting, attribution, and release controls already form one diligence-grade control plane.",
+      "coverageScore": 58,
+      "nextMove": "Defer the integrated assertion until one linked revenue-control packet exists."
+    },
+    {
+      "lane": "Regulated systems control family",
+      "controlFamily": "Regulated systems binder",
+      "action": "REFRESH",
+      "owner": "Quality systems lead",
+      "audience": "Board compliance committee",
+      "requestedAssertion": "GxP, specimen, CAPA, safety, and narrative review already form a reusable regulated binder.",
+      "coverageScore": 67,
+      "nextMove": "Refresh provenance notes and publish one repeatable regulated packet."
+    }
+  ],
+  "evidenceRoom": [
+    {
+      "lane": "AI governance control family",
+      "track": "AI_GOVERNANCE",
+      "controlGapHeadline": "AI governance is close, but still needs fresher operational proof.",
+      "evidenceSignal": "Exception-routing and rollback evidence is older than the trust language implies.",
+      "missingArtifact": "Fresh operating exports for exception handling, evaluation review, and rollback outcomes",
+      "evidenceArtifacts": [
+        "exception-routing export",
+        "evaluation review packet",
+        "rollback control log"
+      ],
+      "coverageScore": 70,
+      "freshnessDays": 26,
+      "ownerReadinessScore": 72
+    },
+    {
+      "lane": "Identity and access control family",
+      "track": "IDENTITY",
+      "controlGapHeadline": "Identity is the healthiest control family, with only minor freshness cleanup left.",
+      "evidenceSignal": "Guest-review evidence is slightly older than ideal, but ownership is clear.",
+      "missingArtifact": "One refreshed guest-access evidence export",
+      "evidenceArtifacts": [
+        "guest access export",
+        "mobile posture packet",
+        "access-review trail"
+      ],
+      "coverageScore": 84,
+      "freshnessDays": 17,
+      "ownerReadinessScore": 86
+    },
+    {
+      "lane": "Platform security control family",
+      "track": "PLATFORM_SECURITY",
+      "controlGapHeadline": "Platform security needs escalation because proof is still fragmented.",
+      "evidenceSignal": "Backup readiness, release rollback, and hosted-validator evidence are still loosely linked.",
+      "missingArtifact": "One end-to-end packet linking hosting controls to release and recovery proof",
+      "evidenceArtifacts": [
+        "backup drill report",
+        "release rollback example",
+        "hosted validator control export"
+      ],
+      "coverageScore": 63,
+      "freshnessDays": 22,
+      "ownerReadinessScore": 61
+    },
+    {
+      "lane": "Procurement and trust center control family",
+      "track": "PROCUREMENT_TRUST",
+      "controlGapHeadline": "This binder is structurally strong and mainly needs ongoing hygiene.",
+      "evidenceSignal": "Questionnaire reuse still benefits from a more explicit proof index.",
+      "missingArtifact": "Published proof-coverage index across the trust layer",
+      "evidenceArtifacts": [
+        "questionnaire answer pack",
+        "trust-center packet",
+        "proof coverage index"
+      ],
+      "coverageScore": 88,
+      "freshnessDays": 10,
+      "ownerReadinessScore": 84
+    },
+    {
+      "lane": "Revenue and reporting control family",
+      "track": "REVENUE_CONTROLS",
+      "controlGapHeadline": "Revenue should be framed as an emerging control family, not a closed binder.",
+      "evidenceSignal": "Cross-surface evidence is thinner than the strength of the integrated-control narrative.",
+      "missingArtifact": "One end-to-end evidence packet connecting reporting, attribution, and release controls",
+      "evidenceArtifacts": [
+        "reporting control matrix",
+        "release-control packet",
+        "attribution rollback example"
+      ],
+      "coverageScore": 58,
+      "freshnessDays": 21,
+      "ownerReadinessScore": 60
+    },
+    {
+      "lane": "Regulated systems control family",
+      "track": "REGULATED_SYSTEMS",
+      "controlGapHeadline": "The regulated binder is real, but still needs clearer provenance to feel durable.",
+      "evidenceSignal": "Evidence dates and repeatability notes are weaker than the current trust narrative.",
+      "missingArtifact": "Fresh provenance notes and one repeatable control-family packet",
+      "evidenceArtifacts": [
+        "GxP change packet",
+        "specimen custody proof",
+        "CAPA closure ledger"
+      ],
+      "coverageScore": 67,
+      "freshnessDays": 33,
+      "ownerReadinessScore": 64
+    }
+  ],
+  "readinessPosture": [
+    {
+      "lane": "AI governance control family",
+      "action": "REFRESH",
+      "blockerCount": 1,
+      "compositeTrustRiskScore": 37.2,
+      "owner": "Chief AI Officer",
+      "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the binder catches up."
+    },
+    {
+      "lane": "Identity and access control family",
+      "action": "CLOSE",
+      "blockerCount": 0,
+      "compositeTrustRiskScore": 23,
+      "owner": "Chief Information Security Officer",
+      "nextMove": "Refresh the guest-access export and mark the control family ready for external reuse."
+    },
+    {
+      "lane": "Platform security control family",
+      "action": "ESCALATE",
+      "blockerCount": 2,
+      "compositeTrustRiskScore": 43.4,
+      "owner": "VP Platform Engineering",
+      "nextMove": "Escalate one owner to assemble the hosting-to-recovery proof chain."
+    },
+    {
+      "lane": "Procurement and trust center control family",
+      "action": "CLOSE",
+      "blockerCount": 0,
+      "compositeTrustRiskScore": 20,
+      "owner": "Chief Commercial Officer",
+      "nextMove": "Publish the proof-coverage index and lock this binder as the reference lane."
+    },
+    {
+      "lane": "Revenue and reporting control family",
+      "action": "DEFER",
+      "blockerCount": 2,
+      "compositeTrustRiskScore": 44,
+      "owner": "Chief Revenue Officer",
+      "nextMove": "Defer the integrated assertion until one linked revenue-control packet exists."
+    },
+    {
+      "lane": "Regulated systems control family",
+      "action": "REFRESH",
+      "blockerCount": 1,
+      "compositeTrustRiskScore": 39.6,
+      "owner": "Quality systems lead",
+      "nextMove": "Refresh provenance notes and publish one repeatable regulated packet."
+    }
+  ],
+  "riskMap": [
+    {
+      "lane": "AI governance control family",
+      "track": "AI_GOVERNANCE",
+      "compositeTrustRiskScore": 37.2,
+      "trustExposureMillions": 32,
+      "buyerCriticalityScore": 82,
+      "companyTags": [
+        "OpenAI",
+        "Anthropic",
+        "Microsoft"
+      ]
+    },
+    {
+      "lane": "Identity and access control family",
+      "track": "IDENTITY",
+      "compositeTrustRiskScore": 23,
+      "trustExposureMillions": 16,
+      "buyerCriticalityScore": 68,
+      "companyTags": [
+        "Microsoft",
+        "Entra",
+        "Okta"
+      ]
+    },
+    {
+      "lane": "Platform security control family",
+      "track": "PLATFORM_SECURITY",
+      "compositeTrustRiskScore": 43.4,
+      "trustExposureMillions": 30,
+      "buyerCriticalityScore": 79,
+      "companyTags": [
+        "Cloudflare",
+        "GitHub",
+        "Hostinger"
+      ]
+    },
+    {
+      "lane": "Procurement and trust center control family",
+      "track": "PROCUREMENT_TRUST",
+      "compositeTrustRiskScore": 20,
+      "trustExposureMillions": 14,
+      "buyerCriticalityScore": 62,
+      "companyTags": [
+        "Vanta",
+        "Drata",
+        "Google"
+      ]
+    },
+    {
+      "lane": "Revenue and reporting control family",
+      "track": "REVENUE_CONTROLS",
+      "compositeTrustRiskScore": 44,
+      "trustExposureMillions": 26,
+      "buyerCriticalityScore": 77,
+      "companyTags": [
+        "Power BI",
+        "Tableau",
+        "VWO"
+      ]
+    },
+    {
+      "lane": "Regulated systems control family",
+      "track": "REGULATED_SYSTEMS",
+      "compositeTrustRiskScore": 39.6,
+      "trustExposureMillions": 29,
+      "buyerCriticalityScore": 76,
+      "companyTags": [
+        "Veeva",
+        "LabVantage",
+        "Thermo Fisher"
+      ]
+    }
+  ],
+  "verification": [
+    "Synthetic control-family data only - no live buyer, board, customer, or partner evidence packets are included.",
+    "Scores are modeled to show how Kinetic Gain can compare control coverage, evidence freshness, owner readiness, blocker load, and review criticality in one board-readable trust surface.",
+    "All routes are read-only and demonstrate trust-evidence packaging, not production legal, security, or compliance advice."
+  ],
+  "sample": [
+    {
+      "id": "ai-governance-controls",
+      "lane": "AI governance control family",
+      "track": "AI_GOVERNANCE",
+      "action": "REFRESH",
+      "controlFamily": "AI governance readiness binder",
+      "boardQuestion": "Which AI control claims would fail a buyer or investor trust review first?",
+      "owner": "Chief AI Officer",
+      "audience": "Board risk committee",
+      "currentPosture": "Control narratives are coherent, but proof freshness and operating attachments are uneven.",
+      "requestedAssertion": "Agent governance, rollout, and exception control evidence is review-ready.",
+      "controlGapHeadline": "AI governance is close, but still needs fresher operational proof.",
+      "evidenceSignal": "Exception-routing and rollback evidence is older than the trust language implies.",
+      "missingArtifact": "Fresh operating exports for exception handling, evaluation review, and rollback outcomes",
+      "evidenceArtifacts": [
+        "exception-routing export",
+        "evaluation review packet",
+        "rollback control log"
+      ],
+      "evidenceMoves": [
+        "refresh control exports",
+        "attach evaluation packet",
+        "tighten trust memo wording"
+      ],
+      "relatedSurfaces": [
+        "scorecard.kineticgain.com",
+        "memo.kineticgain.com",
+        "agents.kineticgain.com"
+      ],
+      "companyTags": [
+        "OpenAI",
+        "Anthropic",
+        "Microsoft"
+      ],
+      "coverageScore": 70,
+      "freshnessDays": 26,
+      "ownerReadinessScore": 72,
+      "buyerCriticalityScore": 82,
+      "blockerCount": 1,
+      "trustExposureMillions": 32,
+      "headline": "AI governance needs fresher proof before it can anchor trust review.",
+      "narrative": "This is an evidence freshness problem more than a strategy problem.",
+      "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the binder catches up."
+    },
+    {
+      "id": "identity-controls",
+      "lane": "Identity and access control family",
+      "track": "IDENTITY",
+      "action": "CLOSE",
+      "controlFamily": "Identity assurance binder",
+      "boardQuestion": "Which identity trust claims are closest to clean closure?",
+      "owner": "Chief Information Security Officer",
+      "audience": "Audit committee",
+      "currentPosture": "Identity evidence is strong and mostly current.",
+      "requestedAssertion": "Identity reviews, guest access, and mobile protection controls are audit-ready.",
+      "controlGapHeadline": "Identity is the healthiest control family, with only minor freshness cleanup left.",
+      "evidenceSignal": "Guest-review evidence is slightly older than ideal, but ownership is clear.",
+      "missingArtifact": "One refreshed guest-access evidence export",
+      "evidenceArtifacts": [
+        "guest access export",
+        "mobile posture packet",
+        "access-review trail"
+      ],
+      "evidenceMoves": [
+        "refresh guest export",
+        "attach mobile posture packet"
+      ],
+      "relatedSurfaces": [
+        "guest.kineticgain.com",
+        "protect.kineticgain.com",
+        "certs.kineticgain.com"
+      ],
+      "companyTags": [
+        "Microsoft",
+        "Entra",
+        "Okta"
+      ],
+      "coverageScore": 84,
+      "freshnessDays": 17,
+      "ownerReadinessScore": 86,
+      "buyerCriticalityScore": 68,
+      "blockerCount": 0,
+      "trustExposureMillions": 16,
+      "headline": "Identity can close quickly with a small evidence refresh.",
+      "narrative": "This is the benchmark lane for a disciplined trust binder.",
+      "nextMove": "Refresh the guest-access export and mark the control family ready for external reuse."
+    },
+    {
+      "id": "platform-security-controls",
+      "lane": "Platform security control family",
+      "track": "PLATFORM_SECURITY",
+      "action": "ESCALATE",
+      "controlFamily": "Platform security binder",
+      "boardQuestion": "Where will platform security trust review ask for harder evidence?",
+      "owner": "VP Platform Engineering",
+      "audience": "Board technology committee",
+      "currentPosture": "Narrative strength is ahead of proof depth.",
+      "requestedAssertion": "Hosting, release safety, backup, and runtime hardening controls are connected enough for diligence.",
+      "controlGapHeadline": "Platform security needs escalation because proof is still fragmented.",
+      "evidenceSignal": "Backup readiness, release rollback, and hosted-validator evidence are still loosely linked.",
+      "missingArtifact": "One end-to-end packet linking hosting controls to release and recovery proof",
+      "evidenceArtifacts": [
+        "backup drill report",
+        "release rollback example",
+        "hosted validator control export"
+      ],
+      "evidenceMoves": [
+        "attach backup packet",
+        "publish rollback example",
+        "show hosted-control lineage"
+      ],
+      "relatedSurfaces": [
+        "backup.kineticgain.com",
+        "validator.kineticgain.com",
+        "docs.kineticgain.com"
+      ],
+      "companyTags": [
+        "Cloudflare",
+        "GitHub",
+        "Hostinger"
+      ],
+      "coverageScore": 63,
+      "freshnessDays": 22,
+      "ownerReadinessScore": 61,
+      "buyerCriticalityScore": 79,
+      "blockerCount": 2,
+      "trustExposureMillions": 30,
+      "headline": "Platform security needs escalation because the evidence chain is still fragmented.",
+      "narrative": "The issue is connective proof, not lack of security surface area.",
+      "nextMove": "Escalate one owner to assemble the hosting-to-recovery proof chain."
+    },
+    {
+      "id": "procurement-trust-controls",
+      "lane": "Procurement and trust center control family",
+      "track": "PROCUREMENT_TRUST",
+      "action": "CLOSE",
+      "controlFamily": "Procurement trust binder",
+      "boardQuestion": "Which control family should anchor the rest of the external proof layer?",
+      "owner": "Chief Commercial Officer",
+      "audience": "Board growth committee",
+      "currentPosture": "Procurement is the strongest lane and can serve as the reference binder.",
+      "requestedAssertion": "Security questionnaire, trust-center, and proof reuse are buyer-ready.",
+      "controlGapHeadline": "This binder is structurally strong and mainly needs ongoing hygiene.",
+      "evidenceSignal": "Questionnaire reuse still benefits from a more explicit proof index.",
+      "missingArtifact": "Published proof-coverage index across the trust layer",
+      "evidenceArtifacts": [
+        "questionnaire answer pack",
+        "trust-center packet",
+        "proof coverage index"
+      ],
+      "evidenceMoves": [
+        "publish coverage index",
+        "cross-link trust assets",
+        "standardize answer-pack attachments"
+      ],
+      "relatedSurfaces": [
+        "procurement.kineticgain.com",
+        "questionnaire.kineticgain.com",
+        "trust.kineticgain.com"
+      ],
+      "companyTags": [
+        "Vanta",
+        "Drata",
+        "Google"
+      ],
+      "coverageScore": 88,
+      "freshnessDays": 10,
+      "ownerReadinessScore": 84,
+      "buyerCriticalityScore": 62,
+      "blockerCount": 0,
+      "trustExposureMillions": 14,
+      "headline": "Procurement should anchor the trust-evidence stack.",
+      "narrative": "Use this lane as the operating standard for proof reuse and evidence clarity.",
+      "nextMove": "Publish the proof-coverage index and lock this binder as the reference lane."
+    },
+    {
+      "id": "revenue-controls",
+      "lane": "Revenue and reporting control family",
+      "track": "REVENUE_CONTROLS",
+      "action": "DEFER",
+      "controlFamily": "Revenue control binder",
+      "boardQuestion": "Which revenue-system control claims are still too early for external trust language?",
+      "owner": "Chief Revenue Officer",
+      "audience": "Board finance committee",
+      "currentPosture": "The control-family story is promising but still early as a unified binder.",
+      "requestedAssertion": "Reporting, attribution, and release controls already form one diligence-grade control plane.",
+      "controlGapHeadline": "Revenue should be framed as an emerging control family, not a closed binder.",
+      "evidenceSignal": "Cross-surface evidence is thinner than the strength of the integrated-control narrative.",
+      "missingArtifact": "One end-to-end evidence packet connecting reporting, attribution, and release controls",
+      "evidenceArtifacts": [
+        "reporting control matrix",
+        "release-control packet",
+        "attribution rollback example"
+      ],
+      "evidenceMoves": [
+        "defer integrated language",
+        "publish one linked packet",
+        "restate as emerging control family"
+      ],
+      "relatedSurfaces": [
+        "powerbi.kineticgain.com",
+        "yield.kineticgain.com",
+        "martech.kineticgain.com"
+      ],
+      "companyTags": [
+        "Power BI",
+        "Tableau",
+        "VWO"
+      ],
+      "coverageScore": 58,
+      "freshnessDays": 21,
+      "ownerReadinessScore": 60,
+      "buyerCriticalityScore": 77,
+      "blockerCount": 2,
+      "trustExposureMillions": 26,
+      "headline": "Revenue controls need a stronger proof chain before external trust reuse.",
+      "narrative": "The binder is valuable, but the integrated control-plane claim should wait.",
+      "nextMove": "Defer the integrated assertion until one linked revenue-control packet exists."
+    },
+    {
+      "id": "regulated-systems-controls",
+      "lane": "Regulated systems control family",
+      "track": "REGULATED_SYSTEMS",
+      "action": "REFRESH",
+      "controlFamily": "Regulated systems binder",
+      "boardQuestion": "Which regulated control families need provenance reinforcement before reuse?",
+      "owner": "Quality systems lead",
+      "audience": "Board compliance committee",
+      "currentPosture": "The control stack is compelling, but the binder needs stronger provenance and fresher timestamps.",
+      "requestedAssertion": "GxP, specimen, CAPA, safety, and narrative review already form a reusable regulated binder.",
+      "controlGapHeadline": "The regulated binder is real, but still needs clearer provenance to feel durable.",
+      "evidenceSignal": "Evidence dates and repeatability notes are weaker than the current trust narrative.",
+      "missingArtifact": "Fresh provenance notes and one repeatable control-family packet",
+      "evidenceArtifacts": [
+        "GxP change packet",
+        "specimen custody proof",
+        "CAPA closure ledger"
+      ],
+      "evidenceMoves": [
+        "refresh dates",
+        "tighten provenance notes",
+        "publish one repeatable packet"
+      ],
+      "relatedSurfaces": [
+        "gxp.kineticgain.com",
+        "specimen.kineticgain.com",
+        "capa.kineticgain.com",
+        "safety.kineticgain.com"
+      ],
+      "companyTags": [
+        "Veeva",
+        "LabVantage",
+        "Thermo Fisher"
+      ],
+      "coverageScore": 67,
+      "freshnessDays": 33,
+      "ownerReadinessScore": 64,
+      "buyerCriticalityScore": 76,
+      "blockerCount": 1,
+      "trustExposureMillions": 29,
+      "headline": "Regulated controls need a provenance refresh before they read like a durable binder.",
+      "narrative": "The surface is there; the external packet needs to look more repeatable and less recent.",
+      "nextMove": "Refresh provenance notes and publish one repeatable regulated packet."
+    }
+  ]
+}

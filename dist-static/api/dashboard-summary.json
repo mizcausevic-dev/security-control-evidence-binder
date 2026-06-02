@@ -1,0 +1,10 @@
+{
+  "controlFamilies": 6,
+  "criticalFamilies": 3,
+  "blockedFamilies": 4,
+  "averageCoverage": 71.7,
+  "trustExposureMillions": 147,
+  "leadingMessage": "Trust weakness is now cross-functional and should be closed as one board-visible evidence workstream.",
+  "generatedAt": "2026-06-02T00:00:00Z",
+  "boardMessage": "Use procurement and identity as the reference binders, escalate platform security first, defer integrated revenue language second, and refresh AI plus regulated-control proof before the next external review."
+}
