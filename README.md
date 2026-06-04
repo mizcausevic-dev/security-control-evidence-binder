@@ -2,7 +2,7 @@
 
 Board-ready security evidence surface for packaging controls, proofs, owner accountability, and trust-ready narratives into one reusable binder for buyers, investors, and partner reviews.
 
-- Live: `http://controls.kineticgain.com/`
+- Live: `https://controls.kineticgain.com/`
 - Repo: `mizcausevic-dev/security-control-evidence-binder`
 
 ## Why this matters
